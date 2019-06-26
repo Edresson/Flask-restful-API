@@ -1,4 +1,5 @@
-
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 from flask import Flask, request
 from flask_restful import Resource, Api, abort
 from werkzeug.security import generate_password_hash, check_password_hash
