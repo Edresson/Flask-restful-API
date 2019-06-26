@@ -54,7 +54,7 @@ class Activate(Resource):
 
 # recurso para login
 class Login(Resource):
-    def get(self):
+    def post(self):
         pass
 
 
