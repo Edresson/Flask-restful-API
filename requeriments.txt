@@ -2,5 +2,4 @@ flask
 pymongo 
 flask-restful
 Flask-Mail 
-pyjwt 
-uwsgi
+pyjwt
