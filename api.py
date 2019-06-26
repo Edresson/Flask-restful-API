@@ -72,7 +72,7 @@ class Activate(Resource):
         return {'email': email}
 
 class Login(Resource):
-    def get(self):
+    def post(self):
         email = request.json['email']
         senha = request.json['senha']
         if db.users.find({'email': email}).count() == 0:
